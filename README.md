@@ -1,6 +1,6 @@
 # 3D Rooms, Character, Camera and Material HDRP Scene Template For Unity
 
-A 3D Rooms, Character, Camera and Material HDRP Scene Template for Unity 2020.3.20f1
+A 3D Rooms, Character, Camera and Material HDRP Scene Template for Unity 2020.3.19f1
 
 Assets used:
 
