@@ -13,8 +13,8 @@ Assets used:
 Features:
 
 - 1st Person WASD/Mouse Controls
-- 3rd Person WASD/Mouse Controls
-- Edit Mode (1st Person with object placement UI)
+- 3rd Person WASD/Mouse Controls [not yet implemented] 
+- Edit Mode (1st Person with object placement UI) [not yet implemented] 
 - Mouse/Touch Drag & Drop Objects
 - (Swithching between Modes) [not yet implemented] 
 
