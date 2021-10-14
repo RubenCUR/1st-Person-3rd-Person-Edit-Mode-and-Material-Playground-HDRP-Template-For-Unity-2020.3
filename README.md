@@ -1,6 +1,6 @@
-# 3D Rooms, Character, Camera and Material HDRP Scene Template For Unity
+# 1st Person/3rd Person/Edit Mode and Material Gallery HDRP Scene Template For Unity
 
-A 3D Rooms, Character, Camera and Material HDRP Scene Template for Unity 2020.3.19f1+
+1st Person/3rd Person/Edit Mode and Material Gallery HDRP Scene Template For Unity
 
 Assets used:
 
@@ -10,6 +10,10 @@ Assets used:
 
 ![3D Rooms and Scene Template](https://user-images.githubusercontent.com/15930554/136650491-e3c200f3-c8e1-4b43-8a38-754590d1ec04.png)
 
+Features:
+
+- Mouse/Touch Drag&Drop Objects
+(- Swithching between Modes) [not yet implemented] 
 
 Links to assets:
 
