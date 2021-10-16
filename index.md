@@ -10,7 +10,7 @@ Assets used:
 
 ![3D Rooms and Scene Template](https://user-images.githubusercontent.com/15930554/136650491-e3c200f3-c8e1-4b43-8a38-754590d1ec04.png)
 
-Features:
+Features: 
 
 - 1st Person WASD/Mouse Controls
 - 3rd Person WASD/Mouse Controls [not yet implemented] 
