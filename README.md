@@ -12,9 +12,9 @@ Assets used:
 
 Features:
 
-- 1st Person WASD/Mouse Controls
-- 3rd Person WASD/Mouse Controls
-- Edit Mode (1st Person with Object placement UI)
+- 1st Person WASD/Mouse Controls (Press Key: 3)
+- 3rd Person WASD/Mouse Controls (Press Key: 2)
+- Edit Mode (1st Person with Object placement UI) (Press Key: 1)
 - In Edit Mode, press SHIFT and Mouse Left-Click for Object placement
 - V for previous Object, B for Next Object for placement
 - Mousewheel for distance between Object and player
