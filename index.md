@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# 1st Person/3rd Person/Edit Mode and Material Gallery HDRP Scene Template For Unity 2020.3.19f1+
 
-You can use the [editor on GitHub](https://github.com/RubenCUR/1st-Person-3rd-Person-Edit-Mode-and-Material-Gallery-HDRP-Scene-Template-For-Unity-2020.3.19f1-/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A 1st Person/3rd Person/Edit Mode and Material Gallery HDRP Scene Template For Unity 2020.3.19f1+
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Assets used:
 
-### Markdown
+- Unity Technologies Physics Demo (1)
+- Unity Technologies 3rd Person Template (2)
+- Unity Technologies Measured Materials HDRP (3)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![3D Rooms and Scene Template](https://user-images.githubusercontent.com/15930554/136650491-e3c200f3-c8e1-4b43-8a38-754590d1ec04.png)
 
-```markdown
-Syntax highlighted code block
+Features:
 
-# Header 1
-## Header 2
-### Header 3
+- 1st Person WASD/Mouse Controls
+- 3rd Person WASD/Mouse Controls [not yet implemented] 
+- Edit Mode (1st Person with object placement UI) [not yet implemented] 
+- Mouse/Touch Drag & Drop Objects
+- (Swithching between Modes) [not yet implemented] 
 
-- Bulleted
-- List
+Links to assets:
 
-1. Numbered
-2. List
+(1) https://learn.unity.com/project/creating-a-physics-playground-beginner-prototype-series?utm_source=Unity+YouTube&utm_medium=social&utm_campaign=evangelism_global_generalpromo_2020-07-01_beginner-prototype-physics-learn
 
-**Bold** and _Italic_ and `Code` text
+(1) https://connect-prd-cdn.unity.com/20200701/f8e4c4f0-ccba-4b7f-bddd-b24595bc8d34/unity-bp-physics-master.zip?_ga=2.75673173.1761123918.1633765983-1498379900.1571765236
 
-[Link](url) and ![Image](src)
-```
+(2) https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RubenCUR/1st-Person-3rd-Person-Edit-Mode-and-Material-Gallery-HDRP-Scene-Template-For-Unity-2020.3.19f1-/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+(3) https://github.com/Unity-Technologies/MeasuredMaterialLibraryHDRP
