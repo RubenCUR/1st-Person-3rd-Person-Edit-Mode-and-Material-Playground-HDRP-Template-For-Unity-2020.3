@@ -20,6 +20,9 @@ Features:
 - Mousewheel for distance between Object and player
 - Mouse/Touch Drag & Drop Objects
 - Swithching between Modes
+- Z to slowdown time
+- Space to pause time
+- X to reverse time
 - ...
 
 
