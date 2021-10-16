@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: b662e4fa26186e94ea5f803411682ecb, type: 3}
+  iconMaxWidth: 192
+  title: Physics Playground
+  sections:
+  - heading: About this project
+    text: This prototype is all about having fun with Unity's physics capabilities!
+      Experiment with how crazy your level can get with all the objects you are able
+      to place, change the gravity and even spawn bombs! Feel free to take  a look
+      at how this project was put together and even add some features of your own!
+      We have made a video showcasing the steps we followed and you can watch via
+      the link below!
+    linkText: Full video
+    url: (wip)
+  - heading: Controls
+    text: Move around the scene, press and hold the right mouse button and use the
+      WASD keys to move.
+    linkText: 
+    url: 
+  - heading: 
+    text: '[ Z ] Slow-down time'
+    linkText: 
+    url: 
+  - heading: 
+    text: '[ SPACE ] Play, Pause'
+    linkText: 
+    url: 
+  - heading: 
+    text: '[ X ] Invert Gravity'
+    linkText: 
+    url: 
+  - heading: 
+    text: '[ V , B ] Switch 3D object'
+    linkText: 
+    url: 
+  - heading: 
+    text: '[ LEFT CLICK ] Spawn object'
+    linkText: 
+    url: 
+  - heading: 
+    text: '[ SHIFT + RIGHT CLICK ] Delete object'
+    linkText: 
+    url: 
+  loadedLayout: 1

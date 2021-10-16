@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2020_3_19;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2020_3_19;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;STARTER_ASSETS_PACKAGES_CHECKED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -53,7 +53,44 @@
     <UnityVersion>2020.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\SampleSceneAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Tests\FlexTests.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexClothActorEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexSolidAssetEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexSoftSkinningEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexClothDeformationEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexSoftAssetEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexSoftActorEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Tests\FlexExtTests.cs" />
+    <Compile Include="Assets\SampleSceneAssets\TutorialInfo\Scripts\Editor\ReadmeEditor2.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexClothAssetEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexActorEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexSolidActorEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Tests\FlexAssetTests.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexSourceActorEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexSourceAssetEditor.cs" />
+    <Compile Include="Assets\Physics Playground\ThirdPartyAssets\WoLfulus\LineEnding\Editor\FileMonitor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexArrayAssetEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Tests\FlexUtilsTests.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexAssetEditor.cs" />
+    <Compile Include="Assets\Physics Playground\ThirdPartyAssets\WoLfulus\LineEnding\Editor\LogEntry.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexFluidRendererEditor.cs" />
+    <Compile Include="Assets\Physics Playground\ThirdPartyAssets\WoLfulus\LineEnding\Editor\LogEntries.cs" />
+    <Compile Include="Assets\Physics Playground\ThirdPartyAssets\WoLfulus\LineEnding\Editor\Enums.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexArrayActorEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Tests\FlexActorTests.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexFluidMaterialEditor.cs" />
+    <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Editor\Editors\FlexContainerEditor.cs" />
+    <Compile Include="Assets\3rd Person\StarterAssets\Editor\PackageChecker\PackageChecker.cs" />
+    <Compile Include="Assets\3rd Person\StarterAssets\Editor\StarterAssetsDeployMenu.cs" />
+    <Compile Include="Assets\3rd Person\SampleSceneAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\3rd Person\StarterAssets\Editor\ScriptingDefineUtils.cs" />
+    <Compile Include="Assets\3rd Person\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Physics Playground\Utilities\DOTween\Editor\DOTweenEditor.dll" />
+    <None Include="Assets\3rd Person\StarterAssets\Editor\PackageChecker\PackageImportList.txt" />
+    <None Include="Assets\Physics Playground\Utilities\DOTween\Editor\DOTweenEditor.XML" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -301,6 +338,15 @@
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
       <HintPath>Library\PackageCache\com.unity.render-pipelines.core@10.6.0\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\Physics Playground\Utilities\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Physics Playground\Utilities\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1-preview.1\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.9.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
@@ -730,6 +776,10 @@
       <Project>{5877547E-3B10-D68F-32A2-89FB0FEF1929}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Multiplayer.MLAPI.Runtime.csproj">
+      <Project>{77ECD50B-FC31-527B-7405-8382782657B0}</Project>
+      <Name>Unity.Multiplayer.MLAPI.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{6873A6ED-BC7D-9694-A513-7C3EDAAF4B16}</Project>
       <Name>UnityEngine.UI</Name>
@@ -742,6 +792,10 @@
       <Project>{491C52D5-9F29-D3B9-1DF1-F21101F0906A}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Multiplayer.MLAPI.Prototyping.csproj">
+      <Project>{0C662EC3-A262-5162-A3CA-4A16266FD615}</Project>
+      <Name>Unity.Multiplayer.MLAPI.Prototyping</Name>
+    </ProjectReference>
     <ProjectReference Include="Cinemachine.csproj">
       <Project>{13B852C2-2D1B-A06E-C681-33969DBC761B}</Project>
       <Name>Cinemachine</Name>
@@ -749,6 +803,10 @@
     <ProjectReference Include="com.unity.cinemachine.editor.csproj">
       <Project>{C82BE5FB-E344-7036-E5E7-E2FD51ECED79}</Project>
       <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MLAPI Community Extensions.csproj">
+      <Project>{22672D15-0461-BA70-5A61-5D703368FF7A}</Project>
+      <Name>MLAPI Community Extensions</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
       <Project>{C439732C-8C6E-7B8D-9804-5ED2007B2EB5}</Project>
