@@ -8,23 +8,25 @@ Assets used:
 - Unity Technologies 3rd Person Template (2)
 - Unity Technologies Measured Materials HDRP (3)
 
-![3D Rooms and Scene Template](https://user-images.githubusercontent.com/15930554/136650491-e3c200f3-c8e1-4b43-8a38-754590d1ec04.png)
+![Scene Template 2](https://user-images.githubusercontent.com/15930554/137581516-b8bf6991-1287-44c0-bad7-421eeaab47b0.png)
 
 Features:
 
 - 1st Person WASD/Mouse Controls
 - 3rd Person WASD/Mouse Controls
-- Edit Mode (1st Person with object placement UI)
-- 
+- Edit Mode (1st Person with Object placement UI)
+- In Edit Mode, press SHIFT and Mouse Left-Click for Object placement
+- V for previous Object, B for Next Object for placement
+- Mousewheel for distance between Object and player
+- Mouse/Touch Drag & Drop Objects
+- Swithching between Modes
+- ...
+
+
+![3D Rooms and Scene Template](https://user-images.githubusercontent.com/15930554/136650491-e3c200f3-c8e1-4b43-8a38-754590d1ec04.png)
 
 ![Scene Template 1](https://user-images.githubusercontent.com/15930554/137581512-afe7f8c4-74db-4a54-9e05-ef820ada7763.png)
 
-
-![Scene Template 2](https://user-images.githubusercontent.com/15930554/137581516-b8bf6991-1287-44c0-bad7-421eeaab47b0.png)
-
-
-- Mouse/Touch Drag & Drop Objects
-- Swithching between Modes
 
 Links to assets:
 
