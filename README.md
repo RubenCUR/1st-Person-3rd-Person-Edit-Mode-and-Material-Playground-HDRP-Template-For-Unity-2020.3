@@ -1,6 +1,6 @@
-# 1st Person/3rd Person/Edit Mode and Material Gallery HDRP Scene Template For Unity
+# 1st Person/3rd Person/Edit Mode and Material Gallery HDRP Scene Template For Unity 2020.3.19f1+
 
-1st Person/3rd Person/Edit Mode and Material Gallery HDRP Scene Template For Unity
+A 1st Person/3rd Person/Edit Mode and Material Gallery HDRP Scene Template For Unity 2020.3.19f1+
 
 Assets used:
 
@@ -13,8 +13,8 @@ Assets used:
 Features:
 
 - 1st Person WASD/Mouse Controls
-- 3rd Person WASD/Mouse Controls
-- Edit Mode (1st Person with object placement UI)
+- 3rd Person WASD/Mouse Controls [not yet implemented] 
+- Edit Mode (1st Person with object placement UI) [not yet implemented] 
 - Mouse/Touch Drag & Drop Objects
 - (Swithching between Modes) [not yet implemented] 
 
