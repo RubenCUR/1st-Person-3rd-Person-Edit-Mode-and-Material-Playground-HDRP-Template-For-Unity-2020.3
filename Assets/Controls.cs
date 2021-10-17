@@ -13,10 +13,14 @@ public class Controls : MonoBehaviour
     public GameObject go3rdGO1;
     public GameObject go3rdGO2;
     public GameObject go3rdGO3;
+    public GameObject go4thGO1;
+    public GameObject go4thGO2;
+    public GameObject go4thGO3;
 
     public bool bGo1stEditModeGOs;
     public bool bGo2ndThirdPersonGOs;
     public bool bGo3rdFirstPersonModeGOs;
+    public bool bGo4thDemoModeGOs;
 
     public Vector3 delta = Vector3.zero;
     private Vector3 lastPos = Vector3.zero;
@@ -72,6 +76,7 @@ public class Controls : MonoBehaviour
 
                 bGo2ndThirdPersonGOs = false;
                 bGo3rdFirstPersonModeGOs = false;
+                bGo4thDemoModeGOs = false;
             }
         }
 
@@ -87,6 +92,7 @@ public class Controls : MonoBehaviour
 
                 bGo1stEditModeGOs = false;
                 bGo3rdFirstPersonModeGOs = false;
+                bGo4thDemoModeGOs = false;
             }
         }
 
@@ -102,9 +108,26 @@ public class Controls : MonoBehaviour
 
                 bGo1stEditModeGOs = false;
                 bGo2ndThirdPersonGOs = false;
+                bGo4thDemoModeGOs = false;
             }
         }
-               
+
+        if (Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            if (bGo4thDemoModeGOs == true)
+            {
+                bGo4thDemoModeGOs = false;
+            }
+            else
+            {
+                bGo4thDemoModeGOs = true;
+
+                bGo1stEditModeGOs = false;
+                bGo2ndThirdPersonGOs = false;
+                bGo3rdFirstPersonModeGOs = false;
+            }
+        }
+
         if (bGo1stEditModeGOs == true)
         {
             if(go1stGO1 != null)
@@ -172,6 +195,29 @@ public class Controls : MonoBehaviour
 
             if (go3rdGO3 != null)
                 go3rdGO3.SetActive(false);
+        }
+
+        if (bGo4thDemoModeGOs == true)
+        {
+            if (go4thGO1 != null)
+                go4thGO1.SetActive(bGo4thDemoModeGOs);
+
+            if (go4thGO2 != null)
+                go4thGO2.SetActive(bGo4thDemoModeGOs);
+
+            if (go4thGO3 != null)
+                go4thGO3.SetActive(bGo4thDemoModeGOs);
+        }
+        else
+        {
+            if (go4thGO1 != null)
+                go4thGO1.SetActive(false);
+
+            if (go4thGO2 != null)
+                go4thGO2.SetActive(false);
+
+            if (go4thGO3 != null)
+                go4thGO3.SetActive(false);
         }
     }
 }
