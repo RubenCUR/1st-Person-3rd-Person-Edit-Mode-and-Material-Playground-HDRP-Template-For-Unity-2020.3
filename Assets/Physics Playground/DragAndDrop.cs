@@ -8,6 +8,20 @@ public class DragAndDrop : MonoBehaviour
     public Vector3 screenSpace;
     public Vector3 offset;
 
+
+    
+    public Vector3 currentPosition;
+    public Vector3 previousPosition;
+
+    public int Speed = 3000;
+
+    public float timeCounter;
+
+    //[SerializeField]
+    //private Transform _player;
+
+    public Vector3 direction = Vector3.forward;
+
     // Use this for initialization
     void Start()
     {
@@ -17,6 +31,8 @@ public class DragAndDrop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         // Debug.Log(_mouseState);
         if (Input.GetMouseButtonDown(0))
         {
@@ -26,7 +42,24 @@ public class DragAndDrop : MonoBehaviour
                 _mouseState = true;
                 screenSpace = Camera.main.WorldToScreenPoint(Target.transform.position);
                 offset = Target.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenSpace.z));
+
+
+
+                
+
+
+                if(Target.GetComponent<Rigidbody>() != null)
+                    Target.GetComponent<Rigidbody>().AddForce(offset * Speed, ForceMode.Impulse);  
             }
+
+            direction = Target.transform.position - transform.position;
+            direction.Normalize();
+
+            Debug.Log("Magnitude: " + direction.magnitude);
+
+            Debug.DrawRay(transform.position, direction, Color.green);
+
+            //transform.Translate(direction * Time.deltaTime);
         }
         if (Input.GetMouseButtonUp(0))
         {
@@ -42,6 +75,23 @@ public class DragAndDrop : MonoBehaviour
 
             //update the position of the object in the world
             Target.transform.position = curPosition;
+
+
+
+
+
+            //currentPosition = Target.transform.position;
+
+            //timeCounter += Time.deltaTime;
+
+            //if(timeCounter > .5)
+            //{
+            //    previousPosition = currentPosition;
+
+            //    timeCounter = 0;
+            //}
+
+            //direction = previousPosition - currentPosition;
         }
     }
 

@@ -53,7 +53,6 @@
     <UnityVersion>2020.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Physics Playground\ShooterNetManager.cs" />
     <Compile Include="Assets\Physics Playground\Scripts\Game\PhysicsPropertyManager.cs" />
     <Compile Include="Assets\Physics Playground\Utilities\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Actors\FlexSolidActor.cs" />
@@ -64,7 +63,6 @@
     <Compile Include="Assets\Physics Playground\Utilities\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Actors\FlexSoftActor.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Assets\FlexSolidAsset.cs" />
-    <Compile Include="Assets\Physics Playground\Scripts\Wall.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Native\Flex.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Auxiliary\_auxFlexDetectShapes.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Auxiliary\_auxFlexDrawParticles.cs" />
@@ -79,30 +77,23 @@
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Native\FlexExt.cs" />
     <Compile Include="Assets\SampleSceneAssets\TutorialInfo\Scripts\Readme2.cs" />
     <Compile Include="Assets\3rd Person\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
-    <Compile Include="Assets\Physics Playground\RemoteController.cs" />
     <Compile Include="Assets\Controls.cs" />
     <Compile Include="Assets\3rd Person\SampleSceneAssets\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\Physics Playground\Scripts\Powerup.cs" />
     <Compile Include="Assets\3rd Person\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_Tab.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Native\FlexUtils.cs" />
     <Compile Include="Assets\Physics Playground\Scripts\PostProcess\AdaptiveFocus.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Helpers\FlexClothDeformation.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_Bar.cs" />
-    <Compile Include="Assets\Physics Playground\Scripts\ShipControl.cs" />
-    <Compile Include="Assets\Physics Playground\Scripts\ServerNetworkTransform.cs" />
     <Compile Include="Assets\Physics Playground\Scripts\Camera\SimpleCameraController2.cs" />
-    <Compile Include="Assets\Physics Playground\Scripts\Obstacle.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Assets\FlexArrayAsset.cs" />
     <Compile Include="Assets\Physics Playground\Scripts\Game\Explosive.cs" />
-    <Compile Include="Assets\Physics Playground\Scripts\Bullet.cs" />
     <Compile Include="Assets\Physics Playground\TouchScript.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Helpers\FlexParticleController.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_OptionList.cs" />
     <Compile Include="Assets\HDRP Materials\Scripts\SimpleCameraController3.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Helpers\FlexScene.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Actors\FlexArrayActor.cs" />
-    <Compile Include="Assets\Physics Playground\SetTouchToText.cs" />
     <Compile Include="Assets\3rd Person\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\3rd Person\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_TabGroup.cs" />
@@ -114,21 +105,19 @@
     <Compile Include="Assets\3rd Person\SampleSceneAssets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\3rd Person\SampleSceneAssets\Scripts\LookWithMouse.cs" />
     <Compile Include="Assets\Physics Playground\Scripts\Audio\AudioController.cs" />
-    <Compile Include="Assets\Physics Playground\Scripts\SpawnerAsteroid.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_SceneTransition.cs" />
     <Compile Include="Assets\SampleSceneAssets\Scripts\LookWithMouse2.cs" />
+    <Compile Include="Assets\MouseCursorManager.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Helpers\FlexBuffer.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_ElementAudio.cs" />
     <Compile Include="Assets\3rd Person\SampleSceneAssets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_TabWindow.cs" />
-    <Compile Include="Assets\Physics Playground\Scripts\Asteroid.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Actors\FlexSourceActor.cs" />
     <Compile Include="Assets\3rd Person\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Assets\FlexClothAsset.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_Menu.cs" />
     <Compile Include="Assets\Physics Playground\Utilities\DOTween\Modules\DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_ElementAnimation.cs" />
-    <Compile Include="Assets\Physics Playground\Scripts\Protocol.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_ElementAnimator.cs" />
     <Compile Include="Assets\Physics Playground\Utilities\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_ElementAnimationPreset.cs" />
@@ -145,7 +134,8 @@
     <Compile Include="Assets\Physics Playground\Utilities\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_Window.cs" />
     <Compile Include="Assets\Physics Playground\Utilities\DOTween\Modules\DOTweenModuleAudio.cs" />
-    <Compile Include="Assets\MouseCursorManager.cs" />
+    <Compile Include="Assets\ThrowObjectsInArea.cs" />
+    <Compile Include="Assets\ThrowObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Physics Playground\Utilities\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -421,9 +411,6 @@
     </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\Physics Playground\Utilities\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1-preview.1\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>H:\- Unity -\2020.3.19f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -832,10 +819,6 @@
       <Project>{5877547E-3B10-D68F-32A2-89FB0FEF1929}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Multiplayer.MLAPI.Runtime.csproj">
-      <Project>{77ECD50B-FC31-527B-7405-8382782657B0}</Project>
-      <Name>Unity.Multiplayer.MLAPI.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{6873A6ED-BC7D-9694-A513-7C3EDAAF4B16}</Project>
       <Name>UnityEngine.UI</Name>
@@ -848,10 +831,6 @@
       <Project>{491C52D5-9F29-D3B9-1DF1-F21101F0906A}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Multiplayer.MLAPI.Prototyping.csproj">
-      <Project>{0C662EC3-A262-5162-A3CA-4A16266FD615}</Project>
-      <Name>Unity.Multiplayer.MLAPI.Prototyping</Name>
-    </ProjectReference>
     <ProjectReference Include="Cinemachine.csproj">
       <Project>{13B852C2-2D1B-A06E-C681-33969DBC761B}</Project>
       <Name>Cinemachine</Name>
@@ -859,10 +838,6 @@
     <ProjectReference Include="com.unity.cinemachine.editor.csproj">
       <Project>{C82BE5FB-E344-7036-E5E7-E2FD51ECED79}</Project>
       <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="MLAPI Community Extensions.csproj">
-      <Project>{22672D15-0461-BA70-5A61-5D703368FF7A}</Project>
-      <Name>MLAPI Community Extensions</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
       <Project>{C439732C-8C6E-7B8D-9804-5ED2007B2EB5}</Project>
