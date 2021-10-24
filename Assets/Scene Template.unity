@@ -29849,7 +29849,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 759496711}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 268898ccf56b2d049b285265090cf155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Text1: {fileID: 1205356818}
@@ -29857,21 +29857,14 @@ MonoBehaviour:
   go1: {fileID: 0}
   go2: {fileID: 0}
   go: []
-  sc1: {fileID: 0}
-  sc2: {fileID: 0}
-  nm: {fileID: 0}
-  xPos: 0
-  yPos: 0
-  xPosPrev: 0
-  yPosPrev: 0
-  confiner: {fileID: 0}
-  bounds: {fileID: 0}
   rightClickToLook: 0
   boost: 3.5
   positionLerpTime: 0.2
   mouseSensitivityCurve:
+    serializedVersion: 2
     m_Curve:
-    - time: 0
+    - serializedVersion: 3
+      time: 0
       value: 0.5
       inSlope: 0
       outSlope: 5
@@ -29879,7 +29872,8 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0
       outWeight: 0
-    - time: 1
+    - serializedVersion: 3
+      time: 1
       value: 2.5
       inSlope: 0
       outSlope: 0
