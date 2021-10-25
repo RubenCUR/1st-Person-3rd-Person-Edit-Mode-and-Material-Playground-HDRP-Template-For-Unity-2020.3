@@ -40755,6 +40755,7 @@ MonoBehaviour:
   go1stGO1: {fileID: 1111361288}
   go1stGO2: {fileID: 759496711}
   go1stGO3: {fileID: 990099461}
+  go1stGO4: {fileID: 0}
   go2ndGO1: {fileID: 1221041501}
   go2ndGO2: {fileID: 1402827285}
   go2ndGO3: {fileID: 1762682262}
@@ -44064,7 +44065,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111361288}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &1111361290
 Camera:
   m_ObjectHideFlags: 0
@@ -44170,7 +44171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volumes:
   - {fileID: 1040672196}
-  - {fileID: 1040672196}
+  - {fileID: 364220376}
   defaultDepth: 7.8
 --- !u!114 &1111361296
 MonoBehaviour:
@@ -63069,7 +63070,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 738646681595172697, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 738646681595172702, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: main
@@ -74510,19 +74511,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f79e47d8d06f83845b1f2109c19a48a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsUsingMouse: 0
-  m_Text1: {fileID: 1205356818}
-  m_Text2: {fileID: 2003356834}
-  go1: {fileID: 0}
-  go2: {fileID: 0}
-  go: []
-  sc1: {fileID: 0}
-  sc2: {fileID: 0}
-  nm: {fileID: 0}
-  xPos: 0
-  yPos: 0
-  xPosPrev: 0
-  yPosPrev: 0
 --- !u!4 &1716679640
 Transform:
   m_ObjectHideFlags: 0
@@ -84074,16 +84062,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 739cb050c4e407143bef3aa6ead2d3af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_NetworkObject: {fileID: 0}
-  NetworkStartInvoked: 0
-  InternalNetworkStartInvoked: 0
-  m_VarInit: 0
-  PlayerNameRC:
-    <LocalTick>k__BackingField: 0
-    <RemoteTick>k__BackingField: 0
-    m_NetworkBehaviour: {fileID: 0}
-    m_InternalValue: SomeGuy
-    m_IsDirty: 0
 --- !u!4 &1921390964
 Transform:
   m_ObjectHideFlags: 0
@@ -84110,13 +84088,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrefabHashGenerator: RemoteController
-  AlwaysReplicateAsRoot: 0
-  <IsPlayerObject>k__BackingField: 0
-  <IsSpawned>k__BackingField: 0
-  <DestroyWithScene>k__BackingField: 0
-  DontDestroyWithOwner: 0
-  m_ChildNetworkBehaviours: []
 --- !u!1 &1922889286
 GameObject:
   m_ObjectHideFlags: 0
@@ -90674,7 +90645,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &2035111234
 Light:
   m_ObjectHideFlags: 0

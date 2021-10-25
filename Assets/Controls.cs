@@ -7,6 +7,7 @@ public class Controls : MonoBehaviour
     public GameObject go1stGO1;
     public GameObject go1stGO2;
     public GameObject go1stGO3;
+    public GameObject go1stGO4;
     public GameObject go2ndGO1;
     public GameObject go2ndGO2;
     public GameObject go2ndGO3;
@@ -138,6 +139,10 @@ public class Controls : MonoBehaviour
 
             if (go1stGO3 != null)
                 go1stGO3.SetActive(bGo1stEditModeGOs);
+
+            if (go1stGO4 != null)
+                go1stGO4.SetActive(bGo1stEditModeGOs);
+            
         }
         else
         {
@@ -149,6 +154,9 @@ public class Controls : MonoBehaviour
 
             if (go1stGO3 != null)
                 go1stGO3.SetActive(false);
+
+            if (go1stGO4 != null)
+                go1stGO4.SetActive(false);
         }
 
         if (bGo2ndThirdPersonGOs == true)

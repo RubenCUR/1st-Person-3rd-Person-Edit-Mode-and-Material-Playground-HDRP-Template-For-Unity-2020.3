@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Physics Playground\Scripts\Game\PhysicsPropertyManager.cs" />
     <Compile Include="Assets\Physics Playground\Utilities\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\ThrowObject.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Actors\FlexSolidActor.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Actors\FlexClothActor.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_SwitchToggle.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Helpers\FlexClothDeformation.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_Bar.cs" />
     <Compile Include="Assets\Physics Playground\Scripts\Camera\SimpleCameraController2.cs" />
+    <Compile Include="Assets\ThrowObjectsInArea.cs" />
     <Compile Include="Assets\Physics Playground\Assets\NVIDIA\Flex\Assets\FlexArrayAsset.cs" />
     <Compile Include="Assets\Physics Playground\Scripts\Game\Explosive.cs" />
     <Compile Include="Assets\Physics Playground\TouchScript.cs" />
@@ -134,8 +136,14 @@
     <Compile Include="Assets\Physics Playground\Utilities\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Physics Playground\Quantum Tek\Quantum UI\Scripts\QUI_Window.cs" />
     <Compile Include="Assets\Physics Playground\Utilities\DOTween\Modules\DOTweenModuleAudio.cs" />
-    <Compile Include="Assets\ThrowObjectsInArea.cs" />
-    <Compile Include="Assets\ThrowObject.cs" />
+    <Compile Include="Assets\Save Scripts\Bullet.cs" />
+    <Compile Include="Assets\Save Scripts\RobotTypes.cs" />
+    <Compile Include="Assets\Save Scripts\Gun.cs" />
+    <Compile Include="Assets\Save Scripts\Robot.cs" />
+    <Compile Include="Assets\Save Scripts\Target.cs" />
+    <Compile Include="Assets\Save Scripts\Game.cs" />
+    <Compile Include="Assets\Save Scripts\Save.cs" />
+    <Compile Include="Assets\Save Scripts\PlayerSettings2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Physics Playground\Utilities\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
